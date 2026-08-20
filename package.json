@@ -1,0 +1,24 @@
+{
+  "name": "exemplo-grid",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Rocha0101/Exemplo-grid#readme",
+  "bugs": {
+    "url": "https://github.com/Rocha0101/Exemplo-grid/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rocha0101/Exemplo-grid.git"
+  },
+  "license": "ISC",
+  "author": "Paloma",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "vite": "^8.2.1"
+  }
+}
