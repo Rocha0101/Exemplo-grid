@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exemplo Grid System</title>
 </head>
-<body>
-    
+<body class="bg-light p-4">
+    <div class="container">
+        <!---Cabecalho-->
+        <header class="mb-5 text-center">
+            <h1 class="display-5 text-primary">Boostrap Grid System</h1>
+            <p class="lead tet-secondary">
+                Redimensione a janela do navegador para ver o grid funcionando
+            </p>
+        </header>
+
+        <!--Inciando o Grid-->
+        <section class="mb-5">
+            <h2 class="h4 mb-3"> Três colunas iguais</h2>
+            <div clss="row g-3">
+                <div class="col">
+                    <div class="demo-box"> Coluna 1</div>
+                </div>
+                <div class="col">
+                    <div class="demo-box"> Coluna 2</div>
+                </div>
+                <div class="col">
+                    <div class="demo-box"> Coluna 3</div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
 </body>
-</html>m
+</html>
