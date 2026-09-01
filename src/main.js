@@ -1,7 +1,7 @@
-//Importa todo o CSS do Bootstrap para o projeto
+// Importa todo o CSS do Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//Importa estilos personalizados do projeto
+// Importa estilos personalizados da aplicação
 import './style.css';
 
-console.log('Bootstrap e Vite carregados com sucesso');
+console.log('Vite + Bootstrap carregados com sucesso!');
